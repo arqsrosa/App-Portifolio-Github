@@ -20,4 +20,8 @@ class App : Application() {
         DomainModule.load()
         PresentationModule.load()
     }
+
+    private fun startKoin(`: () -> Unit) {
+
+    }
 }
